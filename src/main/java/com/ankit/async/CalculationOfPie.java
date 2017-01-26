@@ -9,7 +9,7 @@ public class CalculationOfPie {
         calculationThread.start();
 
                 try{
-                    Thread.sleep(10000);
+                    Thread.sleep(2);    //Gives error
 
                 }catch (Exception e){
                     System.out.println("Exception caught!!!!");
